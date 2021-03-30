@@ -1,0 +1,33 @@
+.cottrai{
+    font-family: segoe ui light;
+    font-size: 13px;
+    width: 600px;
+}
+
+.cottrai img{
+    width: 100%;
+}
+
+a.anhvatd {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+a.anhvatd h3{
+    margin: 0;
+    padding: 0;
+}
+
+a.anhvatd:hover { /*Di chuột lên thẻ a.anhvatd*/
+    color: #22669e;
+}
+
+a.nguon, a.lq{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+span.gio{
+    padding-right: 10px;
+}

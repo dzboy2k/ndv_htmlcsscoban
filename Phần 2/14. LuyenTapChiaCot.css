@@ -1,0 +1,27 @@
+.to{
+    display: flex;
+    width: 876 px;
+    margin-bottom: 50px; /*khảng cách ngoài*/
+    margin-left: 150px;
+    border-bottom: 1px solid gray; /*kẻ  viền*/
+    padding-bottom: 15px; /*khoảng cách bên trong*/
+}
+/*
+border: thuộc tính viền solid solid màu nét
+boder - bottom: kẻ viền bên dưới
+
+padding - Điểm giống margin: khoảng cách
+        - Khác: Khoảng cách bên trong viền
+        - vd: padding - left    
+*/
+.trai{
+    margin-right: 20px;
+    width: 315px;
+}
+.phai{
+    width: 520px;
+} 
+img {
+   width: 100%;
+}
+

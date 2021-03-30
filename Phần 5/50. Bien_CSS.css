@@ -1,0 +1,14 @@
+/* Khai báo biến */
+:root{
+    --mauvang: rgb(223, 161, 27);
+    --maunen: rgb(167, 167, 167);
+    --text_size1: 11px;
+    --font_tieude: "segoe ui light";
+}
+body{
+    background-color: var(--mauvang); /*Sử dụng biến*/
+}
+h2{
+    font-size: var(--text_size1);
+    font-family: var(--font_tieude);
+}

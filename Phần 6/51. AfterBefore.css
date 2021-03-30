@@ -1,0 +1,19 @@
+a.chu{
+    position: relative;
+    text-decoration: none;
+    font-family: segoe ui;
+    color: black;
+    font-size: 60px;
+}
+a.chu div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 8px;
+    background-color: yellowgreen;
+    transition: 0.3s;
+}
+a.chu:hover div{
+    width: 100%;
+}

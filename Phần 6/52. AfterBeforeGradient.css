@@ -1,0 +1,32 @@
+.nut{
+    width: 180px;
+    border-radius: 30px; /*Bo góc*/
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: block; /*Hiểu width*/
+    text-decoration: none;
+    color: white;
+    background-image: -webkit-linear-gradient(left,#ffcd4a,#f15b26);
+}
+.nut:hover{
+    background-image: -webkit-linear-gradient(left,#9cc026, #5faf21);
+}
+
+/* .menu{} */
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+/* .menu ul li{} */
+.menu ul li a{
+    text-decoration: none;
+    font-family: segoe ul light;
+    color: #414141;
+    padding: 10px 20px;
+
+}
+.menu ul li a:after{
+    content: "/";
+}
+/* .menu ul li a:hover{} */

@@ -1,0 +1,44 @@
+h2{
+    width: 500px; /* căn chỉnh độ rộng xuống dòng */
+    /*margin: khoảng cách xung quanh một phần tử 
+    margin-left: trái
+    margin-top: bên trên
+    margin-right: bên phải
+    margin-bottom: bên dưới cùng
+    */
+    margin-left:300px;
+    font-family: segoe ui;
+}
+    /*
+    font-family: font chữ 
+    */
+h4{
+    width: 450px;
+    margin-left: 350px;
+    font-family: segoe ui;
+}
+    /*font-size: cỡ chữ*/
+ul{
+    width: 450px;
+    margin-left:325px ;
+    font-size: 13px;
+    font-family: segoe ui;
+    color: rgb(99, 99, 99);
+}
+hr{
+    width: 450px;
+    margin-right: 450px;
+}
+p{
+    width: 450px;
+    margin-left: 350px;
+}
+img{
+    margin-left: 350px;
+    width: 450px;
+}
+
+/*margin: tạo khoảng cách*/
+
+
+    

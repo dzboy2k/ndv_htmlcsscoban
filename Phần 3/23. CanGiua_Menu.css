@@ -1,0 +1,40 @@
+.menutren{
+    width: 100%;
+    height: 30px;
+    background-color: #a70e1a;
+}
+ul.menuduoi{
+    list-style: none;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;  /*căn menu ra giữa*/
+}
+
+ul.menuduoi a{
+    color: white;
+    display: inline-block; /*vừa hiểu padding vừa không bị xuống dòng*/
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    font-family: segoe ui;
+    transition:0.4s ;
+}
+
+ul.menuduoi a:hover{
+    background-color: #980d17;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+ul.menuduoi li{
+    display: inline; /*thêm thuộc tính*/
+}
+
+/*
+Note:
+    Thẻ ul: không dùng display:flex; dùng text-align: center;
+    Thẻ li: dùng display:inline; để hiển thị trên 1 dòng
+    Thẻ a: display: inline-block: để hiểu padding và  không bị xuống dòng
+    text-align: center; căn giữa: sau khi đã chỉnh.
+*/
+

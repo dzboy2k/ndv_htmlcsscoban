@@ -1,0 +1,44 @@
+.bo{
+    width: 100px;
+    height: 100px;
+    position: relative; /*lấy thuộc tính div bố làm mốc cho các phần tử absolute con bên trong nó*/
+} 
+.bo .lop1{
+    width: 100px;
+    height: 100px;
+}
+
+.bo .lop2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    opacity: 0; /*Độ mờ*/
+
+    /* Ba thuộc tính chia layer */
+    position: absolute; /*Kích hoạt thuộc tính layer*/
+    top: 0; /*Xác định vị trí layer*/
+    left: 0;
+    transition: 0.4s; /*Thời gian di chuột lên hiệu ứng*/
+}
+
+.bo:hover .lop2{
+    opacity: 0.4; 
+}
+
+
+.bo .lop3{
+    color: white;
+    font-size: 35px;
+    
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    opacity: 0;
+    transition: 0.4s; 
+    transform: scale(0); /*Thay đổi tỉ lệ*/
+}
+
+.bo:hover .lop3{
+    opacity: 1;
+    transform: scale(1);
+}

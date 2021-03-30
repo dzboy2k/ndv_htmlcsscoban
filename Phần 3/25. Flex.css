@@ -1,0 +1,82 @@
+.tren h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.tren ul{
+    display: block;
+    list-style: none;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tren ul li{
+    display: inline; /* * */
+}
+.tren ul li a{
+    text-decoration: none;
+    font-family: segoe ui;
+    color: #212b36;
+    background-color: #d5d5d5;
+    padding: 7px 17px;
+    display: block;
+    margin: 0 1px;
+    display: inline-block; /* ** */
+}
+
+.tren ul li a.xanh{
+    background-color: #5c6ac4;
+    color: white;
+}
+
+.duoi{
+    width: 800px;
+    display: flex;
+    flex-wrap:wrap ; /*đủ width tự động xuống dòng*/
+    margin: auto;
+}
+.duoi a.khoinho{
+    width: 200px;
+    display: flex;
+    height: 30px;
+    color: #414141;
+    font-family: segoe ui;
+    text-decoration: none;
+}
+.duoi a.khoinho:hover{
+    text-decoration: underline;
+}
+.duoi .khoinho img.trai{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.duoi .khoinho .phai{
+    width: 170px;
+}
+
+._13cot{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+._13cot ._1cot{
+    width: 76px;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: segoe ui;
+}
+._13cot ._1cot img{
+    width: 70%;
+    border-radius: 10px; /*bo tròn, thành hình tròn để 50% */
+}
+._13cot ._1cot img:hover{
+    border: 2px solid blue;
+}
+._13cot ._1cot a.ten{
+    text-decoration: none;
+    color: rgb(22, 55, 165);
+}
+

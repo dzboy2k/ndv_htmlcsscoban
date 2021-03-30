@@ -1,0 +1,47 @@
+* /*Tất cả các thẻ*/{
+    margin: 0;
+    padding: 0;
+}  
+.bo{
+    width: 635px;
+    height: 635px;
+    position: relative;
+    overflow: hidden; /*Ẩn những nội dung nằm  ngoài vùng width và height */
+}
+.bo .anh{
+    width: 100%;
+    height: 100%;
+}
+.bo .xam{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F0EEF0;
+    transition: 0.4s;
+    border: 0px solid #67536B;
+    box-sizing:border-box ; /*tăng đường viền padding mà không tăng độ rộng thực tế width và height*/
+    opacity: 0;
+}
+.bo:hover .xam{
+    border: 15px solid #67536B;
+    opacity: 1;
+}
+.bo .chu{
+    font-family: segoe ui light;
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    opacity: 0;
+}
+.bo:hover .chu{
+    opacity: 1;
+}
+.bo .chu h2{
+    font-size: 32px;
+}
+.bo .chu p{
+    font-size: 20px;
+    font-style: italic;
+}

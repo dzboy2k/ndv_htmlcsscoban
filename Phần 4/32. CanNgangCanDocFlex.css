@@ -1,0 +1,43 @@
+.khung{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    background: url(img/32/32.png); 
+    /*ảnh nền*/
+    
+    /* text-align: center; Cách 1 - căn ngang */
+
+    color: white;
+    font-size: 33px;
+    font-family: segoe ui light;
+
+    /* Cách 2 - Căn ngang */
+    display: flex;
+    justify-content:center ;
+    /*justify-content: flex-start; trên cùng */
+    /*justify-content: flex-end; dưới */
+
+    /*Căn dọc*/
+    align-items: center; /*ở giữa*/ 
+    /*align-items: flex-start; trên cùng */
+    /*align-items: flex-end; dưới */
+}
+
+.khung .noidung{
+    background: #0000007a;
+    padding: 31px;
+}
+
+/* 
+Note:
+ - Ngang: - Display: flex;
+          - Bộ 3: justify-content: flex-start
+                                   center
+                                   flex-end
+ 
+ - Dọc: - Display: flex;
+          - Bộ 3: align-items:  flex-start
+                                center
+                                flex-end
+ 
+*/

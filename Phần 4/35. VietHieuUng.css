@@ -1,0 +1,67 @@
+.content{
+    display: flex;
+    width: 1380px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.product{
+    font-family: segoe ui light;
+    font-size: 16px;
+    color: #414141;
+    width: 440px;
+    height: 612px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.product img.anh1{
+    width: 100%;
+}
+.product img.anh2{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    opacity: 0;
+}
+.product:hover .anh2{
+    opacity: 1;
+}
+.product .layer3{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.product .layer3 .trai{
+    width:50%;
+}
+.trai a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #414141;
+}
+.product .layer3 .phai{
+    width: 50%;
+    text-align: right;
+}
+.product .layer4{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    transition: 0.4s;
+    opacity: 1;
+}
+.product:hover .layer4{
+    opacity: 0;
+}
+.product .layer5{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    transition: 0.4s;
+    opacity: 0;
+}
+.product:hover .layer5{
+    opacity: 1;
+}

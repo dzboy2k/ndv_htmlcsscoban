@@ -1,0 +1,13 @@
+b{
+    margin-top: 200px;
+    display: block;
+}
+/*
+Công dụng 
+    -Xuống dòng
+    -Để một thẻ hiểu được margin, padding
+    -display: inline; ngược lại với display: block; 
+*/
+h1{
+    display: inline;
+}

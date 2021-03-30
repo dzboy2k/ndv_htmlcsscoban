@@ -1,0 +1,17 @@
+.myslide{
+    width: 500px;
+    height: 300px;
+}
+
+.myslide img{
+    width: 500px;
+}
+
+.myslide .carousel-indicators{
+    /* Thuộc tính biến mất
+        opacity: 0;
+        visibility: hidden; (nhìn:ẩn;)
+        display: none;
+    */
+    display: none;
+}

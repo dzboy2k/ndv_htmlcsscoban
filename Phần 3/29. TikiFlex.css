@@ -1,0 +1,50 @@
+.banner{
+    display: flex;
+    width: 1232px;
+    margin: auto;
+    height: 542px;
+    margin-top: 20px;
+}
+.banner ._1c{
+    width: 242px;
+}
+.banner ._1c ._1hang{
+    display: flex;
+    height: 38px;
+}
+.banner ._1c ._1hang .hangtrai{
+    width: 30px;
+}
+.banner ._1c ._1hang .hangphai{
+    width:calc(100% - 30px); /*Tính chiều rộng, phải có dấu cách*/
+}
+
+.banner ._2c{
+    width: 583px;
+}
+.banner ._2c .tren{
+    height: 358px;
+    margin-bottom: 7px;
+}
+.banner ._2c .duoi{
+    height: 172px;
+    display: flex;
+}
+.banner ._2c .duoi .motnua{
+    width: 50%;
+}
+
+.banner ._3c{
+    width: 401px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner ._3c .saudiv{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+#s1 .carousel-indicators{
+    display: none;
+}

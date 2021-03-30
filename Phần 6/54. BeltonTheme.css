@@ -1,0 +1,119 @@
+*{margin: 0; padding: 0;}
+:root{
+    --font1:'Oswald', sans-serif;
+    --size1:48px;
+    --lineheight1:59px;
+    --font2:'Amiri',serif;
+    --size2:17px;
+    --color2:#666;
+
+    --size3: 22px;
+}
+.banner_top{
+    background: url(img/54/54.2.jpg) top center; /*Vị trí trên cùng - ở giữa*/
+    height: 600px;
+    background-size:cover ; /*ảnh luôn luôn full màn hình*/
+    position: relative;
+    background-attachment: fixed; /*Cố định background ở 1 vị trí*/
+}
+.banner_top::before /*.banner_top .den*/ {
+    content: ''; /*Dùng với before*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left,#0000009e 0%, #01010100 50%, #00000069 100%);
+}
+.banner_top ._3cot{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
+.banner_top ._3cot ._1cot.cottrai a{
+    font-size: 25px;
+    color: white;
+    display: block; /*Hiểu padding*/
+    padding: 20px 30px;
+}
+.banner_top ._3cot ._1cot.cottrai a:hover{
+    color: #0345bf;
+}
+
+.banner_top ._3cot ._1cot.cotgiua{
+    text-align: center;
+}
+.banner_top ._3cot ._1cot.cotgiua img{
+    height: 40px;
+    padding-top: 20px;
+}
+.banner_top ._3cot ._1cot.cotphai{
+    text-align: right;
+    padding-right: 20px;
+    padding-top:10px ;
+}
+.banner_top ._3cot ._1cot.cotphai a{
+    color: white;
+    font-size: 24px;
+    padding: 15px 15px;
+    display: inline-block; /*nhận padding*/
+}
+
+.text_banner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    color: white;
+}
+.text_banner .content{
+    width: 1170px;
+    margin: auto;
+}
+.text_banner .content h1{
+    font-family: var(--font1);
+    font-size: var(--size1);
+    line-height: var(--lineheight1);
+    color: white;
+    width: 50%;
+}
+
+/* end css top */
+.content1{
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    font-family: var(--font2);
+    font-size: var(--size2);
+    color: var(--color2);
+}
+.content1 .left{
+    width: 35%;
+}
+.content1 .left h2{
+    font-family: var(--font1);
+    font-size: var(--size3);
+    width: 50%;
+}
+/* Ctrl + f : đổi tất cả thuộc tính mà con trỏ trỏ tới*/
+.content1 .right{
+    width: 65%;
+}
+.content1 .right p{
+    line-height: 20px;
+    margin-top: 15px;
+}
+.content1 .right p:before{
+    content: "\f178"; /*Mã icon - Kiểm tra phần tử tìm thẻ i nhấn before -> vào content css copy*/
+    font: normal normal normal 14px/1 FontAwesome; /*tương đương font-family*/
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.content1 .right p:hover:before{
+    left: 0;
+    opacity: 1;
+}

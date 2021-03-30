@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.bo{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-image: url(img/44/44.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.gra{
+    width: 500px;
+    height: 150px;
+    /*Đổ gradient theo chiều ngang, dọc hoặc chéo*/
+    
+    /* background-image: -webkit-linear-gradient(45deg,brown, orangered); Đổ theo chiều chéo, deg: độ */
+
+    /*background-image: -webkit-linear-gradient(top,brown, rgb(44, 20, 12)); /*Đổ theo chiều dọc*/
+
+    /*Đổ gra dọc theo điểm dừng màu*/
+    background-image: -webkit-linear-gradient(top,#ffffff00 0%, #f8f8f8 50%, #f8f8f800 100%);
+    transition: 0.89s;
+    transform: rotate(-45deg);
+    
+    position: absolute;
+    top: -128px;
+    left: -297px;
+}
+
+.bo:hover .gra{
+    top: 428px;
+    left: 197px;
+    opacity: 0;
+}
+

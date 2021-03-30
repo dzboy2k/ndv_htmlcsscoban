@@ -1,0 +1,25 @@
+.chu{
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+    color: #1E1E1E;
+    font-family: verdana;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.chu .chunho{
+    /* Dịch chuyển chữ */
+    /* Cách 1 */
+    /* padding-top: 50px;*/ /*Nếu dùng margin sẽ dịch chuyển cả div bố */
+
+    /* Cách 2:*/
+    position: relative; /*Có tác dụng dịch chuyển so với vị trí ban đầu nếu kết hợp với top, left*/
+    top: 50px;
+
+    transition: 0.4s;
+}
+
+.chu:hover .chunho{
+    top: 0px;
+}

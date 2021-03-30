@@ -1,0 +1,28 @@
+.bo{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.bo .xoay{
+    width: 350px;
+    height: 350px;
+
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    transition: 50s;
+}
+
+.bo:hover .xoay{
+    transform: rotate(36000deg); /*Xoay, deg:độ*/
+}
+
+.bo .cogai{
+    width: 450px;
+
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    transition: 0.4s;
+}
